@@ -67,7 +67,7 @@
         <remap from="depth/image"     to="$(arg depth_topic)"/>
         <remap from="rgb/camera_info" to="$(arg camera_info_topic)"/>
         <remap from="scan"            to="$(arg scan_topic)"/>
-        <remap from="rtabmap/odom"            to="$(arg odom_topic)"/>
+        <remap from="odom"            to="$(arg odom_topic)"/>
     </node>
   </group>
 </launch>
