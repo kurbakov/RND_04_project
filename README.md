@@ -25,3 +25,9 @@ Udacity provides you with a in-classroom Workspace with ROS configured to work o
     When your robot is launched you will teleop around the room to generate a proper map of the environment.
 
 We are excited to see you grow with your ROS skills and we can't wait to see what your map looks like!
+
+### ROS nodes and topics
+
+<p align="center">
+  <img src="./images/ros_graph.png" width=100% height=100% />
+</p>
