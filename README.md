@@ -1,5 +1,10 @@
 # RND_04_project
 
+## Map file
+
+Plese download the file from [Dropbox](https://www.dropbox.com/s/e6sz79kjbnt3551/rtabmap.db.tar.gz?dl=0) and unzip it.
+
+
 ### Overview
 
 Map My World! In this project you will create a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
@@ -25,10 +30,6 @@ Udacity provides you with a in-classroom Workspace with ROS configured to work o
     When your robot is launched you will teleop around the room to generate a proper map of the environment.
 
 We are excited to see you grow with your ROS skills and we can't wait to see what your map looks like!
-
-### Map file
-
-Plese download the file from [Dropbox](https://www.dropbox.com/s/e6sz79kjbnt3551/rtabmap.db.tar.gz?dl=0) and unzip it.
 
 ### ROS nodes and topics
 
