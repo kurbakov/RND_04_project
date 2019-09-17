@@ -2,7 +2,7 @@
 
 ### Overview
 
-Welcome to Project 3: Map My World! In this project you will create a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
+Map My World! In this project you will create a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
 
 RTAB-Map (Real-Time Appearance-Based Mapping) is a popular solution for SLAM to develop robots that can map environments in 3D. RTAB-Map has good speed and memory management, and it provides custom developed tools for information analysis. Most importantly, the quality of the documentation on ROS Wiki (http://wiki.ros.org/rtabmap_ros) is very high. Being able to leverage RTAB-Map with your own robots will lead to a solid foundation for mapping and localization well beyond this Nanodegree program.
 
@@ -25,6 +25,10 @@ Udacity provides you with a in-classroom Workspace with ROS configured to work o
     When your robot is launched you will teleop around the room to generate a proper map of the environment.
 
 We are excited to see you grow with your ROS skills and we can't wait to see what your map looks like!
+
+### Map file
+
+Plese download the file from [Dropbox](https://www.dropbox.com/s/e6sz79kjbnt3551/rtabmap.db.tar.gz?dl=0) and unzip it.
 
 ### ROS nodes and topics
 
