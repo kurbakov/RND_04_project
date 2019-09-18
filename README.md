@@ -1,6 +1,6 @@
 # RND_04_project
 
-## Map file
+## RTab map file
 
 Plese download the file from [Dropbox](https://www.dropbox.com/s/e6sz79kjbnt3551/rtabmap.db.tar.gz?dl=0) and unzip it.
 
