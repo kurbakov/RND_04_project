@@ -36,3 +36,31 @@ We are excited to see you grow with your ROS skills and we can't wait to see wha
 <p align="center">
   <img src="./images/ros_graph.png" width=100% height=100% />
 </p>
+
+
+### How to run
+
+Open terminal and run
+```
+cd ~
+git clone https://github.com/kurbakov/RND_04_project
+mkdir -p catkin_ws/src 
+cd catkin_ws/src
+catkin_init_workspace
+cp -r ../../RND_04_project/my_robot ./
+cp -r ../../RND_04_project/teleop_twist_keyboard ./
+cd ../
+catkin_make
+source devel/setup.bash
+roslaunch my_robot world.launch
+```
+
+In new terminal window
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
+
+In new terminal window
+```
+roslaunch my_robot mapping.launch
+```
